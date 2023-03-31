@@ -1,0 +1,256 @@
+.banner{
+	width: 100%;
+	height: 950px;
+	background: linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)),url(logo2.jpg);
+	position: cover;
+	background-size: 100% 100%;
+}
+.navigation-bar{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background: rgba(32,58,92, 0.5);
+}
+.logo-side i h4{
+	color:orange;
+	border: 1px;
+	border-radius: 18px;
+	padding: 5px 15px 5px 5px;
+	background: black;
+	font-family: serif;
+	outline: none;
+	margin-top: 0px;
+
+
+}
+.logo-side i h4 span{
+	letter-spacing: 5px;
+	border:none;
+	border-radius: 18px 0px 0px 18px;
+	background: white;
+	padding: 3px 7px 3px 15px;
+	margin: auto;
+	outline: none;
+	margin-left: 0;
+}
+.logo-side i{
+	margin: 25px auto;
+}
+.link-side{
+	margin-top: 25px;
+}
+.link-side ul li{
+	display: inline-block;
+	margin-top: 25px;
+	padding: 0px 25px;
+	position: relative;
+}
+.link-side ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: white;
+	position: absolute;
+	transition: 0.3s;
+	left: 25px;
+	bottom: -1px;
+
+}
+.link-side ul li:hover::after{
+	width: 60%;
+}
+.link-side ul li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.login-side button{
+	margin-top: 25px;
+	display: inline-block;
+	outline: none;
+	background: darkorange;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	
+
+}
+.btn01{
+	border-radius: 18px 0px 0px 18px;
+	padding: 6px 25px;
+	border:none;
+	margin-left: 0px;
+}
+.btn02{
+	border-radius: 0px 18px 18px 0px;
+	padding: 6px 25px;
+	border:none;
+	margin-left: -2px;
+	text-align: center;
+}
+.content-bar{
+	width: 100%;
+	height: 500px;
+
+}
+.fieldset-div{
+	width: 80%;
+	height: 500px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	background: transparent;
+	background: linear-gradient(rgba(255, 255, 255,0.1),rgb(255, 255, 255,0.2));
+	border: 2px solid darkorange;
+	border-radius: 0px 30px 0px 30px;
+}
+.fieldset-div fieldset p{
+	color: white;
+	margin-bottom: 50px;
+}
+.fieldset-div fieldset legend{
+	color: white;
+	border-radius: 1px solid white;
+	position: absolute;
+	margin-top: -22px;
+	background: rgb(32,58,92);
+	border:2px solid darkorange ;
+	width: 15%;
+	margin-left: 30px;
+	font-family:monospace;
+	text-transform: uppercase;
+	text-align: center;
+}
+.fieldset-div fieldset p{
+	margin-top: 50px;
+	padding-left:25px;
+}
+.fieldset-div .row{
+	position: relative
+}
+.vission-logo{
+	height: 100px;
+	background: rgba(255,255,255,0.3);
+	color: white;
+	margin:50px 20px 20px 30px;
+	margin-top: 10%;
+}
+.vission-logo p{
+	text-align: center;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.vission-text{
+	height: 100px;
+	background: rgba(255,255,255,0.5);
+	color: black;
+	margin:50px 20px 20px -20px;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	text-align: center;
+}
+.mission-logo{
+	height: 100px;
+	background: rgba(255,255,255,0.3);
+	color: black;
+	margin:50px 20px 20px 30px;
+	margin-top: 10%;
+}
+.mission-logo p{
+	text-align: center;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.mission-text{
+	height: 100px;
+	background: rgba(255,255,255,0.5);
+	color: black;
+	margin:50px 20px 20px -20px;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	text-align: center;
+}
+/*footersection*/
+.footer-bar{
+	height: 170px;
+	width: 100%;
+	background: rgba(32,58,92, 0.8);
+	position: absolute;
+	bottom: -45%;
+
+}
+.links{
+	color: white;
+	margin-top: 20px;
+	font-family: sans-serif;
+
+}
+.links h4{
+	margin-top: 20px;
+}
+.links ul{
+	margin-left: -30px}
+.links ul li{
+	list-style: none;
+	
+
+}
+
+.links ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.newsletter h4{
+	color: white;
+	margin-top: 20px;
+	font-family: sans-serif;
+	margin-left:-20px;
+	text-align: center;
+}
+.newsletter input[type="email"]{
+	width: 90%;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: transparent;
+	text-align: center;
+	margin-top: 15px;
+}
+.newsletter form button{
+	width: 60%;
+	text-align: center;
+	background-color: orange;
+	border:none;
+	outline: none;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 3px;
+}
+.contact-us h4{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+.contact-us p{
+	text-align: center;
+	color: white;
+
+}
+.socialmedia{
+	text-align: center;
+}
+.socialmedia i{
+	color: white;
+	padding: 0px 10px;
+}
